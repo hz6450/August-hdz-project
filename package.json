@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node src/init.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.10",
+    "@babel/node": "^7.22.10"
+  },
+  "type": "module",
+  "name": "august-hdz-project",
+  "description": "배달의 민족 클론코딩",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkun2/August-hdz-project.git"
+  },
+  "keywords": [
+    "clonecoding"
+  ],
+  "author": "hdz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pkun2/August-hdz-project/issues"
+  },
+  "homepage": "https://github.com/pkun2/August-hdz-project#readme"
+}
